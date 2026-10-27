@@ -1,0 +1,10 @@
+# Environment files may hold secrets; never commit real env files.
+.env
+.env.*
+!.env.example
+
+# Local Node tooling (e.g. markdownlint-cli2 runs)
+node_modules/
+
+# OS artifacts
+.DS_Store
